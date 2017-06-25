@@ -18,4 +18,4 @@ $ npm install
 $ npm start
 ```
 
-Open your browser to ***http:/`/localhost:8081*** to view.  Modify your React code in your editor, save your changes, and watch those changes automatically reflect in the browser! *(the power of webpack-dev-server)*
+Open your browser to ***http://localhost:8081*** to view.  Modify your React code in your editor, save your changes, and watch those changes automatically reflect in the browser! *(the power of webpack-dev-server)*
