@@ -1,26 +1,34 @@
 {
-  "name": "react-laboratory",
-  "version": "1.1.0",
-  "description": "",
+  "name": "commit-countdown",
+  "version": "1.0.0",
+  "description": "Countdown to the 1000th commit",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --content-base . --inline"
+    "start": "webpack-dev-server --content-base . --inline",
+    "build": "webpack"
   },
   "keywords": [
     "react",
     "reactjs"
   ],
-  "author": "Thomas Stringer",
-  "license": "MIT",
+  "author": "Megan Ring",
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.5.2",
     "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "moment": "^2.18.1",
+    "react-moment": "^0.2.4",
+    "style-loader": "^0.18.2",
     "webpack": "^3.0.0",
     "webpack-dev-server": "^2.5.0"
   },
   "dependencies": {
+    "axios": "^0.16.2",
+    "moment": "^2.18.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   }

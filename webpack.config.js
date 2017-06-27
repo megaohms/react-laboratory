@@ -15,9 +15,13 @@ module.exports = {
         use: [{
           loader: 'babel-loader',
           options: {
-            presets: ['env', 'react']
+            presets: ['env', 'react', 'stage-0']
           }
         }]
+      }, {
+        test: /\.css$/,
+        exclude: /node_modules/,
+        use: ['style-loader', 'css-loader']
       }
     ]
   }
