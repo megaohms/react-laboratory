@@ -1,25 +1,27 @@
-# Commit Countdown
+# React Laboratory
 
-A minimal countdown clock to estimate the 1000th commit of a repository. Users can add a commit and watch the estimate update. 
+A minimal React dev environment. 
 
 ## Installation
 
 ```
-$ git clone https://github.com/megaohms/commit-countdown.git
-$ cd commit-countdown
+$ git clone https://github.com/megaohms/react-laboratory.git
+$ cd react-laboratory
 $ npm install
 ```
+
 
 ## To run the dev server
 
 ```
 $ npm start
 ```
+Open your browser to ***http://localhost:8080***
+
 
 ## To build
+
 ```
 $ npm run build
 ```
-then open index.html in your browser.
-
-Open your browser to ***http://localhost:8080*** to view, countdown, and contribute!
+then open /path/to/react-laboratory/index.html in your browser.
